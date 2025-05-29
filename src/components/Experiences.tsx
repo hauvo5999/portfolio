@@ -10,7 +10,7 @@ const Experiences: React.FC = () => {
                 <span className="subtitle text-color-primary">Nov 2023 <MoveRight /> Now</span>
                 <h4 className="maintitle maintitle-custom">
                     <a href="https://cloudverse.ai" target="_blank">Cloudverse Ltd</a>
-                    <span><Image className="maintitle-image" src="/assets/images/cloudverse-logo.png" alt="cloudverse-logo" width={40} height={40}/></span>
+                    <span><Image className="maintitle-image rounded-md" src="/assets/images/cloudverse-logo.png" alt="cloudverse-logo" width={40} height={40}/></span>
                 </h4>
                 <div className="bg-white/10 backdrop-blur-lg rounded-2xl p-8 border border-white/20">
                     <div className="mb-5">
@@ -53,7 +53,7 @@ const Experiences: React.FC = () => {
                 <span className="subtitle text-color-primary">Jul 2021 <MoveRight /> Oct 2023</span>
                 <h4 className="maintitle maintitle-custom">
                     <a href="https://novobi.com" target="_blank">Novobi Inc</a>
-                    <span><Image className="maintitle-image" src="/assets/images/novobi-logo.webp" alt="novobi" width={40} height={40}/></span>
+                    <span><Image className="maintitle-image rounded-md" src="/assets/images/novobi-logo.webp" alt="novobi" width={40} height={40}/></span>
                 </h4>
                 <div className="bg-white/10 backdrop-blur-lg rounded-2xl p-8 border border-white/20">
                     <div className="mb-5">
@@ -133,7 +133,7 @@ const Experiences: React.FC = () => {
                 <span className="subtitle text-color-primary">Jul 2020 <MoveRight /> Oct 2020</span>
                 <h4 className="maintitle maintitle-custom">
                     <a href="https://www.truecommerce.com/dicentral" target="_blank">Di Central</a>
-                    <span><Image className="maintitle-image" src="/assets/images/dicentral-logo.webp" alt="dicentral-logo" width={40} height={40}/></span>
+                    <span><Image className="maintitle-image rounded-md" src="/assets/images/dicentral-logo.webp" alt="dicentral-logo" width={40} height={40}/></span>
                 </h4>
                 <div className="bg-white/10 backdrop-blur-lg rounded-2xl p-8 border border-white/20">
                     <div className="mb-5">
