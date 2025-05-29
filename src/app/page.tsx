@@ -74,9 +74,9 @@ export default function Home() {
                   <div className="text-center">
                     <ContactIcon iconType='phone' />
                   </div>
-                  <div className="text-center">
+                  {/* <div className="text-center">
                     <ContactIcon iconType='facebook' />
-                  </div>
+                  </div> */}
                 </div>
               </div>
               {/* <div>
@@ -183,7 +183,7 @@ export default function Home() {
                   </div>
                   <div>
                     <p className="text-white font-medium">Phone</p>
-                    <p className="text-white/70">+84 33 939-0851</p>
+                    <p className="text-white/70">0339390851</p>
                   </div>
                 </div>
 
@@ -199,10 +199,10 @@ export default function Home() {
               </div>
 
               <div className="flex space-x-4 pt-6">
-                <ContactIcon iconType='facebook' />
+                {/* <ContactIcon iconType='facebook' /> */}
                 <ContactIcon iconType='linkedin' />
                 <ContactIcon iconType='github' />
-                <ContactIcon iconType='instagram' />
+                {/* <ContactIcon iconType='instagram' /> */}
                 <ContactIcon iconType='mail' />
 
                 {/* <a href="#" className="w-12 h-12 bg-white/10 backdrop-blur-lg rounded-full flex items-center justify-center border border-white/20 hover:bg-white/20 transition-all duration-300">
