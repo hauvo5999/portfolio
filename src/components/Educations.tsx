@@ -56,8 +56,8 @@ const Education: React.FC = () => {
         },
         {
             id: 3,
-            major: 'High School',
-            school: 'Le Quy Don - Ninh Thuan',
+            major: 'Student',
+            school: 'Le Quy Don High School for the Gifted - Ninh Thuan',
             content: ['Maths 2nd award at the provincial level'],
             timeInfo: '2014 - 2017',
             tags: []
