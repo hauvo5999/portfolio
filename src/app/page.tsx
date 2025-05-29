@@ -53,11 +53,11 @@ export default function Home() {
                 Software Engineer
               </h2>
               <p className="text-white/80 text-lg leading-relaxed">
-                Hi there, Greetings, I&apos;m Hau, a computer scientist with extensive experience in software development, system architecture, and ERP solutions.
+                Hi there, I&apos;m Hau, a computer scientist with extensive experience in software development, system architecture, and ERP solutions.
                 It&apos;s nice to have you here. I&apos;m excited to showcase my work and my areas of expertise, which include developing efficient software.
               </p>
               <p className="text-white/80 text-lg leading-relaxed">
-                Now let&apos;s have a look at my portfolio to see how my skills and background might benefit your company. I appreciate you coming, and I hope to speak with you soon.
+                Now let&apos;s take a look at my portfolio to see how my skills and background might benefit your company. I appreciate you visiting, and I hope to speak with you soon.
               </p>
               <div>
                 <span className='title text-blue-400'>Find with me:</span>

@@ -33,7 +33,7 @@ const Features: React.FC = () => {
                         With a proven track record of successfully implementing and managing ERP systems for diverse organizations including finance, supply chain, platform integration, and human resources.
                     </p>
                     <p className="text-white/70 mb-6">
-                        My ability to simplify corporate procedures and apply excellent analytical abilities have continuously increased operational effectiveness and optimized resource allocation. Working with me will ensure that ERP systems are seamlessly integrated with your current infrastructure, that projects are completed on time, and that budgetary restrictions are followed.          
+                        My ability to simplify corporate procedures and apply excellent analytical abilities have continuously increased operational effectiveness and optimized resource allocation. Working with me will ensure that ERP systems are seamlessly integrated with your current infrastructure, that projects are completed on time, and that budget requirements are met.          
                     </p>
                     <div className="flex flex-wrap gap-2">
                         <span className="px-3 py-1 bg-green-500/20 text-green-300 rounded-full text-sm">Odoo</span>

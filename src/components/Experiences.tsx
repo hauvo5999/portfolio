@@ -8,7 +8,7 @@ const Experiences: React.FC = () => {
             {/* Cloudverse */}
             <div>
                 <span className="subtitle text-color-primary">Nov 2023 <MoveRight /> Now</span>
-                <h4 className="maintitle maintitle-custom">
+                <h4 className="maintitle maintitle-custom items-center">
                     <a href="https://cloudverse.ai" target="_blank">Cloudverse Ltd</a>
                     <span><Image className="maintitle-image rounded-md" src="/assets/images/cloudverse-logo.png" alt="cloudverse-logo" width={40} height={40}/></span>
                 </h4>
@@ -51,7 +51,7 @@ const Experiences: React.FC = () => {
             {/* Novobi */}
             <div>
                 <span className="subtitle text-color-primary">Jul 2021 <MoveRight /> Oct 2023</span>
-                <h4 className="maintitle maintitle-custom">
+                <h4 className="maintitle maintitle-custom items-center">
                     <a href="https://novobi.com" target="_blank">Novobi Inc</a>
                     <span><Image className="maintitle-image rounded-md" src="/assets/images/novobi-logo.webp" alt="novobi" width={40} height={40}/></span>
                 </h4>
@@ -131,7 +131,7 @@ const Experiences: React.FC = () => {
             {/* Di Central */}
             <div>
                 <span className="subtitle text-color-primary">Jul 2020 <MoveRight /> Oct 2020</span>
-                <h4 className="maintitle maintitle-custom">
+                <h4 className="maintitle maintitle-custom items-center">
                     <a href="https://www.truecommerce.com/dicentral" target="_blank">Di Central</a>
                     <span><Image className="maintitle-image rounded-md" src="/assets/images/dicentral-logo.webp" alt="dicentral-logo" width={40} height={40}/></span>
                 </h4>
