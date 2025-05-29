@@ -61,3 +61,8 @@ body {
 ul {
   list-style: circle;
 }
+
+.logo {
+  color: var(--color-blue-400);
+  display: inline-block;
+}

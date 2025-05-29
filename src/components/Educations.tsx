@@ -15,10 +15,12 @@ const EducationCard: React.FC<{data: { major: string, school: string, timeInfo: 
                 {timeInfo}
             </div>
             </div>
-            <div className="text-white/70 mb-4">
+            <div className="text-white/70 mb-4 pl-4">
+                <ul>
                 {content.map( (c, index) =>
-                    (<p key={index}>{c}</p>)
+                    (<li key={index}>{c}</li>)
                 )}
+                </ul>
             </div>
             <div className="flex flex-wrap gap-2">
                 {tags.map((t) => (
@@ -45,9 +47,9 @@ const Education: React.FC = () => {
             major: 'Bachelor Degree of Computer Science',
             school: 'Ho Chi Minh University of Technology',
             content: [
-                '- GPA: 3.4/4.0',
-                '- Learning background knowledge in the fields of Computer and Information Technology, core knowledge of Computer Science, and specialized knowledge and technology of the industry and practice by working in groups on projects and exercises throughout the learning process.',
-                '- Thesis: Build Student Service Gate for Faculty of Computer Science and Engineering using ReactJS, NodeJS, Postgres and MongoDB (9.36/10)'
+                'GPA: 3.4/4.0',
+                'Learning background knowledge in the fields of Computer and Information Technology, core knowledge of Computer Science, and specialized knowledge and technology of the industry and practice by working in groups on projects and exercises throughout the learning process.',
+                'Thesis: Build Student Service Gate for Faculty of Computer Science and Engineering using ReactJS, NodeJS, Postgres and MongoDB (9.36/10)'
             ],
             timeInfo: '2017 - 2021',
             tags: ['Data structures and algorithms (DSA)', 'Principle of Programming Language', 'Python', 'Network architecture']
@@ -56,7 +58,7 @@ const Education: React.FC = () => {
             id: 3,
             major: 'High School',
             school: 'Le Quy Don - Ninh Thuan',
-            content: ['- Maths 2nd award at the provincial level'],
+            content: ['Maths 2nd award at the provincial level'],
             timeInfo: '2014 - 2017',
             tags: []
         },

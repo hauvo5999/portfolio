@@ -38,13 +38,7 @@ npm run dev
    - Change the title and description
    - Update the font if desired
 
-2. Modify the content in `src/app/page.tsx`:
-   - Update your name and title
-   - Add your own profile picture (replace `/profile-placeholder.jpg`)
-   - Edit the About section
-   - Update the skills list
-   - Add your projects
-   - Customize the contact form
+2. Modify the content in `src/app/page.tsx` and all components in `src/app/components` folder:
 
 ### Styling
 
@@ -52,12 +46,7 @@ The project uses Tailwind CSS for styling. You can customize the colors, spacing
 
 ### Images
 
-Replace the placeholder images in the `public` directory with your own:
-- `profile-placeholder.jpg` - Your profile picture
-- `project-1-placeholder.jpg` - Project screenshots
-- `project-2-placeholder.jpg`
-- `project-3-placeholder.jpg`
-
+Config images in the `public/assets/images`
 ## Deployment
 
 The easiest way to deploy your portfolio is using [Vercel](https://vercel.com):
@@ -71,7 +60,4 @@ The easiest way to deploy your portfolio is using [Vercel](https://vercel.com):
 - [Next.js](https://nextjs.org/) - React framework
 - [Tailwind CSS](https://tailwindcss.com/) - Utility-first CSS framework
 - [TypeScript](https://www.typescriptlang.org/) - Type safety
-
-## License
-
-This project is open source and available under the [MIT License](LICENSE).
+- [Lucide](https://lucide.dev/) - Lucide React Icons

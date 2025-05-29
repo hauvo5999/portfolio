@@ -2,13 +2,14 @@
 'use client'
 
 import { useState } from 'react';
-import { Mail, Phone, MapPin, ExternalLink, Award } from 'lucide-react';
+import { Mail, Phone, MapPin, InfinityIcon } from 'lucide-react';
 import Image from "next/image";
 import ContactIcon from '../components/IconLink';
 import Education from '../components/Educations';
 import Experiences from '../components/Experiences';
 import Features from '../components/Features';
 import Skills from '../components/Skills';
+import Certificates from '@/components/Certificates';
 
 export default function Home() {
   const [activeTab, setActiveTab] = useState('experience');
@@ -19,7 +20,12 @@ export default function Home() {
       <nav className="fixed top-0 w-full bg-white/10 backdrop-blur-lg border-b border-white/20 z-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center py-4">
-            <div className="text-white font-bold text-xl">Hau Vo</div>
+            <div className="flex">
+              <a href="#home" className="logo mr-2">
+                <InfinityIcon />
+              </a>
+              <span className='text-white font-bold text-xl '>Hau Vo</span>
+            </div>
             <div className="hidden md:flex space-x-8">
               <a href="#home" className="text-white/80 hover:text-white transition-colors">Home</a>
               <a href="#features" className="text-white/80 hover:text-white transition-colors">Features</a>
@@ -53,20 +59,46 @@ export default function Home() {
               <p className="text-white/80 text-lg leading-relaxed">
                 Now let&apos;s have a look at my portfolio to see how my skills and background might benefit your company. I appreciate you coming, and I hope to speak with you soon.
               </p>
-              <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 pt-6">
-                <div className="text-center">
-                  <ContactIcon iconType='linkedin' />
-                </div>
-                <div className="text-center">
-                  <ContactIcon iconType='github' />
-                </div>
-                <div className="text-center">
-                  <ContactIcon iconType='mail' />
-                </div>
-                <div className="text-center">
-                  <ContactIcon iconType='facebook' />
+              <div>
+                <span className='title text-blue-400'>Find with me:</span>
+                <div className="grid grid-cols-2 sm:grid-cols-6 gap-6 pt-6">
+                  <div className="text-center">
+                    <ContactIcon iconType='linkedin' />
+                  </div>
+                  <div className="text-center">
+                    <ContactIcon iconType='github' />
+                  </div>
+                  <div className="text-center">
+                    <ContactIcon iconType='mail' />
+                  </div>
+                  <div className="text-center">
+                    <ContactIcon iconType='phone' />
+                  </div>
+                  <div className="text-center">
+                    <ContactIcon iconType='facebook' />
+                  </div>
                 </div>
               </div>
+              {/* <div>
+                <span className='title text-blue-400'>Best Skills:</span>
+                <div className="grid grid-cols-2 sm:grid-cols-6 gap-6 pt-6">
+                  <div className="text-center">
+                    <ContactIcon iconType='linkedin' />
+                  </div>
+                  <div className="text-center">
+                    <ContactIcon iconType='github' />
+                  </div>
+                  <div className="text-center">
+                    <ContactIcon iconType='mail' />
+                  </div>
+                  <div className="text-center">
+                    <ContactIcon iconType='phone' />
+                  </div>
+                  <div className="text-center">
+                    <ContactIcon iconType='facebook' />
+                  </div>
+                </div>
+              </div> */}
             </div>
             <div className='rounded-2xl bg-white/10 backdrop-blur-lg border border-white/20 p-8'>
               <Image src="/me.png" alt="me" width={500} height={500} className='rounded-lg' />
@@ -118,72 +150,7 @@ export default function Home() {
       </section>
 
       {/* Certificates Section */}
-      <section id="certificates" className="py-20 px-4 sm:px-6 lg:px-8 bg-black/20">
-        <div className="max-w-6xl mx-auto">
-          <h2 className="text-4xl font-bold text-white mb-12 text-center">Certificates & Awards</h2>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <div className="bg-white/10 backdrop-blur-lg rounded-2xl p-6 border border-white/20 hover:bg-white/20 transition-all duration-300 group">
-              <div className="flex items-center justify-between mb-4">
-                <Award className="text-yellow-400" size={32} />
-                <ExternalLink className="text-white/40 group-hover:text-white/80 transition-colors" size={20} />
-              </div>
-              <h3 className="text-lg font-bold text-white mb-2">AWS Certified Solutions Architect</h3>
-              <p className="text-white/60 text-sm mb-3">Amazon Web Services</p>
-              <p className="text-white/70 text-sm">Professional level certification for designing distributed applications on AWS.</p>
-            </div>
-
-            <div className="bg-white/10 backdrop-blur-lg rounded-2xl p-6 border border-white/20 hover:bg-white/20 transition-all duration-300 group">
-              <div className="flex items-center justify-between mb-4">
-                <Award className="text-blue-400" size={32} />
-                <ExternalLink className="text-white/40 group-hover:text-white/80 transition-colors" size={20} />
-              </div>
-              <h3 className="text-lg font-bold text-white mb-2">Google Cloud Professional</h3>
-              <p className="text-white/60 text-sm mb-3">Google Cloud Platform</p>
-              <p className="text-white/70 text-sm">Cloud architecture and engineering best practices on GCP.</p>
-            </div>
-
-            <div className="bg-white/10 backdrop-blur-lg rounded-2xl p-6 border border-white/20 hover:bg-white/20 transition-all duration-300 group">
-              <div className="flex items-center justify-between mb-4">
-                <Award className="text-green-400" size={32} />
-                <ExternalLink className="text-white/40 group-hover:text-white/80 transition-colors" size={20} />
-              </div>
-              <h3 className="text-lg font-bold text-white mb-2">MongoDB Certified Developer</h3>
-              <p className="text-white/60 text-sm mb-3">MongoDB Inc.</p>
-              <p className="text-white/70 text-sm">Advanced database design and optimization techniques.</p>
-            </div>
-
-            <div className="bg-white/10 backdrop-blur-lg rounded-2xl p-6 border border-white/20 hover:bg-white/20 transition-all duration-300 group">
-              <div className="flex items-center justify-between mb-4">
-                <Award className="text-purple-400" size={32} />
-                <ExternalLink className="text-white/40 group-hover:text-white/80 transition-colors" size={20} />
-              </div>
-              <h3 className="text-lg font-bold text-white mb-2">React Professional</h3>
-              <p className="text-white/60 text-sm mb-3">Meta (Facebook)</p>
-              <p className="text-white/70 text-sm">Advanced React patterns and performance optimization.</p>
-            </div>
-
-            <div className="bg-white/10 backdrop-blur-lg rounded-2xl p-6 border border-white/20 hover:bg-white/20 transition-all duration-300 group">
-              <div className="flex items-center justify-between mb-4">
-                <Award className="text-red-400" size={32} />
-                <ExternalLink className="text-white/40 group-hover:text-white/80 transition-colors" size={20} />
-              </div>
-              <h3 className="text-lg font-bold text-white mb-2">Certified Kubernetes Administrator</h3>
-              <p className="text-white/60 text-sm mb-3">CNCF</p>
-              <p className="text-white/70 text-sm">Container orchestration and cluster management expertise.</p>
-            </div>
-
-            <div className="bg-white/10 backdrop-blur-lg rounded-2xl p-6 border border-white/20 hover:bg-white/20 transition-all duration-300 group">
-              <div className="flex items-center justify-between mb-4">
-                <Award className="text-orange-400" size={32} />
-                <ExternalLink className="text-white/40 group-hover:text-white/80 transition-colors" size={20} />
-              </div>
-              <h3 className="text-lg font-bold text-white mb-2">Scrum Master Certified</h3>
-              <p className="text-white/60 text-sm mb-3">Scrum Alliance</p>
-              <p className="text-white/70 text-sm">Agile project management and team leadership skills.</p>
-            </div>
-          </div>
-        </div>
-      </section>
+      <Certificates />
 
       {/* Contact Section */}
       <section id="contact" className="py-20 px-4 sm:px-6 lg:px-8">
@@ -299,9 +266,12 @@ export default function Home() {
       {/* Footer */}
       <footer className="py-8 px-4 sm:px-6 lg:px-8 border-t border-white/20">
         <div className="max-w-6xl mx-auto text-center">
-          <p className="text-white/60">
+          {/* <p className="text-white/60">
             © 2025 Hau Vo. All rights reserved. Built with Next.js and Tailwind CSS.
-          </p>
+          </p> */}
+          <a href="#home" className='logo'>
+            <InfinityIcon width={100} height={100}/>
+          </a>
         </div>
       </footer>
     </div>
