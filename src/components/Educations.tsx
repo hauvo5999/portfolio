@@ -15,12 +15,11 @@ const EducationCard: React.FC<{data: { major: string, school: string, timeInfo: 
                 {timeInfo}
             </div>
             </div>
-            <p className="text-white/70 mb-4">
-                {content.map( (c) =>
-                    // eslint-disable-next-line react/jsx-key
-                    (<p>{c}</p>)
+            <div className="text-white/70 mb-4">
+                {content.map( (c, index) =>
+                    (<p key={index}>{c}</p>)
                 )}
-            </p>
+            </div>
             <div className="flex flex-wrap gap-2">
                 {tags.map((t) => (
                     <span key={t} className="px-3 py-1 bg-purple-500/20 text-purple-300 rounded-full text-sm">{t}</span>
