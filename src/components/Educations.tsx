@@ -44,12 +44,12 @@ const Education: React.FC = () => {
         },
         {
             id: 2,
-            major: 'Bachelor Degree of Computer Science',
+            major: 'Bachelor\'s Degree in Computer Science',
             school: 'Ho Chi Minh University of Technology',
             content: [
                 'GPA: 3.4/4.0',
                 'Learning background knowledge in the fields of Computer and Information Technology, core knowledge of Computer Science, and specialized knowledge and technology of the industry and practice by working in groups on projects and exercises throughout the learning process.',
-                'Thesis: Build Student Service Gate for Faculty of Computer Science and Engineering using ReactJS, NodeJS, Postgres and MongoDB (9.36/10)'
+                'Thesis: Build a Student Service Gate for the Faculty of Computer Science and Engineering using ReactJS, NodeJS, Postgres and MongoDB (9.36/10)'
             ],
             timeInfo: '2017 - 2021',
             tags: ['Data structures and algorithms (DSA)', 'Principle of Programming Language', 'Python', 'Network architecture']

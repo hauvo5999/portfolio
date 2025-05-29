@@ -26,8 +26,8 @@ const Experiences: React.FC = () => {
                         </div>
                             <div className="text-white/70 mb-4 pl-4">
                             <ul>
-                                <li>Designed and implemented the flow to integrate Cost and Usage Report from cloud providers (AWS, GCP, Azure)</li>
-                                <li>Built new source code for the CSPM feature by FastAPI (Cloud Security Platform Management). Scanning cloud account (AWS, GCP, Azure) with security standards and recommending actions.</li>
+                                <li>Designed and implemented the flow to integrate Cost and Usage Reports from cloud providers (AWS, GCP, Azure)</li>
+                                <li>Built new source code for the CSPM feature by FastAPI (Cloud Security Platform Management). Scanning cloud accounts (AWS, GCP, Azure) with security standards and recommending actions.</li>
                                 <li>Implemented Cost Alert feature.</li>
                                 <li>Code review for other members.</li>
                             </ul>
@@ -70,9 +70,9 @@ const Experiences: React.FC = () => {
                         </div>
                             <div className="text-white/70 mb-4 pl-4">
                             <ul>
-                                <li>Developed a strategy ERP plan for Sale company to manage their process and integrate to multiple E-commerce platforms</li>
+                                <li>Developed a strategy ERP plan for Sales company to manage their process and integrate into multiple E-commerce platforms</li>
                                 <li>Led three entry-level members, ensuring solutions aligned with client expectations and delivering high-quality code.</li>
-                                <li>Business analysis, training, and support customer.</li>
+                                <li>Business analysis, training, and support customers.</li>
                                 <li>Designed ERP solutions, deliver them, and assign them to other members.</li>
                                 <li>Integrated with B2C platforms such as Square, Shopify, and Faire.com into internal ERP for management and tracking company performance.</li>
                                 <li>Code review for members.</li>
@@ -105,7 +105,7 @@ const Experiences: React.FC = () => {
                             <div className="text-white/70 mb-4 pl-4">
                             <ul>
                                 <li>Integrated with Payment Gateways: Stripe, ACH.</li>
-                                <li>Built a re-publishing system to integrate with larger vendors. Implement an ETL process to daily sync large data from third-party via APIs, FTP pools.</li>
+                                <li>Built a re-publishing system to integrate with larger vendors. Implement an ETL process to sync large data from third parties via APIs, and FTP pools.</li>
                                 <li>Studied the fundamentals of the ERP system.</li>
                                 <li>Learned how to work in the Agile/Scrum process.</li>
                             </ul>
